@@ -4,7 +4,7 @@ Code, injection manifest, and per-sample results for the paper:
 
 > **Omer Imran (2026). *Two Directions of Failure: Missed Detections and False Alarms in a CNN Technosignature Detector on Breakthrough Listen Data.*** Preprint, not peer reviewed yet. (Link to be added when I upload on arXiv)
 
-One frozen EfficientNet-B0 detector, trained once on the Kaggle *SETI Breakthrough Listen — E.T. Signal Search* data and never retrained. 15,000 synthetic signals injected with `setigen` into 300 real backgrounds, across two directions:
+One frozen EfficientNet-B0 detector, trained once on the Kaggle *SETI Breakthrough Listen — E.T. Signal Search* data and never retrained. 15,000 synthetic signals injected with custom NumPy generators into 300 real backgrounds, across two directions:
 
 - **Direction 1 — misses:** five signal morphologies the detector was not trained on → recall.
 - **Direction 2 — false alarms:** five RFI-like morphologies injected into ON *and* OFF panels → false-positive rate.
@@ -94,7 +94,6 @@ The Breakthrough Listen spectrograms are **not redistributed** here; they are su
 ## Credits
 
 - Baseline training notebook adapted from **tuckerarrants, "SETI Learned Image Resizing"** (Kaggle). Architecture and training loop are theirs; I trained it once and froze it.
-- Signal injection: `setigen` (Brzycki et al.).
 - Grad-CAM: Selvaraju et al. 2017. EfficientNet: Tan & Le 2019.
 
 ## AI-assistance disclosure
