@@ -1,0 +1,5 @@
+# For scripts/verify_results.py
+numpy
+pandas
+scikit-learn
+# For the full notebooks (Kaggle environment): torch, timm, albumentations, setigen, scipy, matplotlib
