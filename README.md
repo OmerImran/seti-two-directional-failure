@@ -99,7 +99,7 @@ The Breakthrough Listen spectrograms are **not redistributed** here; they are su
 
 ## AI-assistance disclosure
 
-AI assistance. I used Claude (Anthropic) as an assistant during this project: to help debug code, revise a few portions of the text, and review the manuscript. The research question, experimental design, pre-specified decision rules, and all analysis decisions are my own. I ran all experiments myself on Kaggle, and every number reported comes from those saved outputs.
+I used Claude (Anthropic) as an assistant during this project: to help debug code, revise a few portions of the text, and review the manuscript. The research question, experimental design, pre-specified decision rules, and all analysis decisions are my own. I ran all experiments myself on Kaggle, and every number reported comes from those saved outputs.
 
 ## License
 
