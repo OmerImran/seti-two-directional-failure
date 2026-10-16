@@ -2,7 +2,9 @@
 
 Code, injection manifest, and per-sample results for the paper:
 
-> **Omer Imran (2026). *Two Directions of Failure: Missed Detections and False Alarms in a CNN Technosignature Detector on Breakthrough Listen Data.*** Preprint, not peer reviewed yet. (Link to be added when I upload on arXiv)
+> **Omer Imran (2026). *Two Directions of Failure: Missed Detections and False Alarms in a CNN Technosignature Detector on Breakthrough Listen Data.*** Preprint, not peer reviewed yet.
+
+arXiv: https://arxiv.org/abs/2610.22050
 
 One frozen EfficientNet-B0 detector, trained once on the Kaggle *SETI Breakthrough Listen — E.T. Signal Search* data and never retrained. 15,000 synthetic signals injected with custom NumPy generators into 300 real backgrounds, across two directions:
 
@@ -57,7 +59,6 @@ weights/                      see weights/README.md
 | `phase5_energy_table.csv` | Injected energy vs model response per family |
 | `phase55_veto.csv` | Cadence-filter veto rates per family × amplitude |
 | `phase55_per_sample_S.csv` | Filter statistic S for every sample |
-| [ADD REMAINING FILES] | |
 
 ## The injection manifest is the dataset
 
@@ -106,4 +107,4 @@ Code: MIT (see `LICENSE`). Manifest, results, and figures: CC BY 4.0.
 
 ## Citation
 
-See `CITATION.cff`, or use the Zenodo DOI: [gotta add ts too]
+See `CITATION.cff`, or use the arXiv DOI: 10.48550/arXiv.2610.22050
