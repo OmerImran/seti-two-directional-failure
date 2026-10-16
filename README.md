@@ -39,8 +39,7 @@ data/
   injection_manifest.csv      15,000 rows — THE dataset (see below)
   oof_df.csv                  out-of-fold validation predictions (AUC / threshold source)
 results/                      per-sample and summary outputs (table below)
-figures/                      figures as they appear in the paper
-paper/                        main.tex, references, compiled PDF
+paper/                        main.tex, figures/, compiled PDF (same source as arXiv)
 scripts/verify_results.py     recomputes the headline numbers, no GPU needed
 weights/                      see weights/README.md
 ```
