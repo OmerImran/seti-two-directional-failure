@@ -1,8 +1,8 @@
-# Two Directions of Failure in a CNN Technosignature Detector
+# Missed Detections and False Alarms in a CNN Technosignature Detector
 
 Code, injection manifest, and per-sample results for the paper:
 
-> **Omer Imran (2026). *Two Directions of Failure: Missed Detections and False Alarms in a CNN Technosignature Detector on Breakthrough Listen Data.*** Preprint, not peer reviewed yet.
+> **Omer Imran (2026). *Missed Detections and False Alarms in a CNN Technosignature Detector on Breakthrough Listen Data.*** Preprint, not peer reviewed yet.
 
 arXiv: https://arxiv.org/abs/2610.22050
 
@@ -33,7 +33,7 @@ Brackets are 95% Wilson intervals; n = 300 per family × amplitude. See the pape
 
 ```
 notebooks/
-  seti-baseline-v1.ipynb      training notebook (adapted from tuckerarrants, see Credits)
+  detector-v1.ipynb     training notebook (adapted from tuckerarrants, see Credits)
   seti-experiments-v1.ipynb   injection, scoring, Grad-CAM, filter
 data/
   injection_manifest.csv      15,000 rows — THE dataset (see below)
