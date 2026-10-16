@@ -1,10 +1,20 @@
 cff-version: 1.2.0
-message: "If you use this code or data, please cite it as below."
-title: "Two Directions of Failure: Missed Detections and False Alarms in a CNN Technosignature Detector on Breakthrough Listen Data"
+message: "If you use this code or data, please cite the paper below."
+title: "seti-two-directional-failure: code and data for Missed Detections and False Alarms in a CNN Technosignature Detector"
 authors:
   - family-names: Imran
     given-names: Omer
 type: software
 license: MIT
-date-released: 2026-10-XX
-repository-code: "https://github.com/USERNAME/REPO"
+repository-code: "https://github.com/OmerImran/seti-two-directional-failure"
+date-released: 2026-10-16
+preferred-citation:
+  type: article
+  title: "Missed Detections and False Alarms in a CNN Technosignature Detector on Breakthrough Listen Data"
+  authors:
+    - family-names: Imran
+      given-names: Omer
+  year: 2026
+  doi: "10.48550/arXiv.2610.22050"
+  url: "https://arxiv.org/abs/2610.22050"
+  notes: "Preprint, arXiv:2610.22050"
